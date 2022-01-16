@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CEC13A592794B22C00A4FA28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC13A582794B22C00A4FA28 /* AppDelegate.swift */; };
-		CEC13A5B2794B22C00A4FA28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC13A5A2794B22C00A4FA28 /* SceneDelegate.swift */; };
 		CEC13A5D2794B22C00A4FA28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC13A5C2794B22C00A4FA28 /* ViewController.swift */; };
-		CEC13A602794B22C00A4FA28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC13A5E2794B22C00A4FA28 /* Main.storyboard */; };
 		CEC13A632794B22C00A4FA28 /* EfEvents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEC13A612794B22C00A4FA28 /* EfEvents.xcdatamodeld */; };
 		CEC13A652794B22D00A4FA28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC13A642794B22D00A4FA28 /* Assets.xcassets */; };
 		CEC13A682794B22D00A4FA28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC13A662794B22D00A4FA28 /* LaunchScreen.storyboard */; };
@@ -39,9 +37,7 @@
 /* Begin PBXFileReference section */
 		CEC13A552794B22C00A4FA28 /* EfEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EfEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC13A582794B22C00A4FA28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEC13A5A2794B22C00A4FA28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CEC13A5C2794B22C00A4FA28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CEC13A5F2794B22C00A4FA28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEC13A622794B22C00A4FA28 /* EfEvents.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EfEvents.xcdatamodel; sourceTree = "<group>"; };
 		CEC13A642794B22D00A4FA28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC13A672794B22D00A4FA28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -102,9 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				CEC13A582794B22C00A4FA28 /* AppDelegate.swift */,
-				CEC13A5A2794B22C00A4FA28 /* SceneDelegate.swift */,
 				CEC13A5C2794B22C00A4FA28 /* ViewController.swift */,
-				CEC13A5E2794B22C00A4FA28 /* Main.storyboard */,
 				CEC13A642794B22D00A4FA28 /* Assets.xcassets */,
 				CEC13A662794B22D00A4FA28 /* LaunchScreen.storyboard */,
 				CEC13A692794B22D00A4FA28 /* Info.plist */,
@@ -236,7 +230,6 @@
 			files = (
 				CEC13A682794B22D00A4FA28 /* LaunchScreen.storyboard in Resources */,
 				CEC13A652794B22D00A4FA28 /* Assets.xcassets in Resources */,
-				CEC13A602794B22C00A4FA28 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +257,6 @@
 				CEC13A5D2794B22C00A4FA28 /* ViewController.swift in Sources */,
 				CEC13A632794B22C00A4FA28 /* EfEvents.xcdatamodeld in Sources */,
 				CEC13A592794B22C00A4FA28 /* AppDelegate.swift in Sources */,
-				CEC13A5B2794B22C00A4FA28 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CEC13A5E2794B22C00A4FA28 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEC13A5F2794B22C00A4FA28 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CEC13A662794B22D00A4FA28 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

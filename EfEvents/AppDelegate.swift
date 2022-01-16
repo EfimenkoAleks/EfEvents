@@ -11,10 +11,21 @@ import CoreData
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let window = UIWindow()
+        
+        let module = ViewController()
+        let navigation = UINavigationController(rootViewController: module)
+        navigation.isNavigationBarHidden = true
+        navigation.navigationBar.isTranslucent = true
+        navigation.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        navigation.navigationBar.shadowImage = UIImage()
+        window.rootViewController = navigation
+        window.makeKeyAndVisible()
+        self.window = window
         return true
     }
 
